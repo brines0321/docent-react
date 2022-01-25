@@ -74,6 +74,15 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  /* docent dark slate blue */
+  --ion-color-dsb: #483D8B;
+	--ion-color-dsb-rgb: 72,61,139;
+	--ion-color-dsb-contrast: #ffffff;
+	--ion-color-dsb-contrast-rgb: 255,255,255;
+	--ion-color-dsb-shade: #3f367a;
+	--ion-color-dsb-tint: #5a5097;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -145,6 +154,14 @@ http://ionicframework.com/docs/theming/ */
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+
+    /* docent dark slate blue */
+    --ion-color-dsb: #483D8B;
+  	--ion-color-dsb-rgb: 72,61,139;
+  	--ion-color-dsb-contrast: #ffffff;
+  	--ion-color-dsb-contrast-rgb: 255,255,255;
+  	--ion-color-dsb-shade: #3f367a;
+  	--ion-color-dsb-tint: #5a5097;
   }
 
   /*
@@ -233,4 +250,13 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-dsb {
+  --ion-color-base: var(--ion-color-dsb);
+  --ion-color-base-rgb: var(--ion-color-dsb-rgb);
+  --ion-color-contrast: var(--ion-color-dsb-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-dsb-contrast-rgb);
+  --ion-color-shade: var(--ion-color-dsb-shade);
+  --ion-color-tint: var(--ion-color-dsb-tint);
 }
