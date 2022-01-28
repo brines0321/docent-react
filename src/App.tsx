@@ -4,6 +4,7 @@ import { IonReactRouter } from '@ionic/react-router';
 
 import Home from './app/Dashboard/Home/Home';
 import New from './app/Dashboard/New/New'
+import Questions from './app/Questions/QuestionsPage'
 
 import { setupIonicReact } from '@ionic/react';
 
@@ -42,6 +43,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/start-new">
           <New />
+        </Route>
+        <Route exact path="/questions">
+          <Questions />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
